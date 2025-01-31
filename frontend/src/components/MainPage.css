@@ -1,0 +1,65 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333; /* Text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.full-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background-color: #f0f0f0; /* Light grey background */
+}
+
+.content {
+  text-align: center;
+}
+
+.company-logo {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.company-heading {
+  font-size: 5em; /* Increased font size */
+  margin-bottom: 10px;
+  color: #2c3e50; /* Dark blue color */
+}
+
+.company-subheading {
+  font-size: 3em; /* Increased font size */
+  margin-bottom: 20px;
+  color: #34495e; /* Slightly lighter dark blue */
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.navigate-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #3498db; /* Blue color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.navigate-button:hover {
+  background-color: #2980b9; /* Darker blue color */
+  transform: translateY(-2px); /* Slight lift effect */
+}
